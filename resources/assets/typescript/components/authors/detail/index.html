@@ -1,0 +1,14 @@
+<div *ngIf="author" >
+	<h5 class="text-center text-muted">Author {{ author.name }}</h5>
+	<hr>
+	<a href="#" class="list-group-item clearfix">
+	    <span class="glyphicon glyphicon-file"></span>
+	    Name: {{ author.name }}
+	    <span class="pull-right">
+
+	        <button class="btn btn-md btn-success" routerLink="/authors">
+	            Back to list poeple
+	        </button>
+	  </span>
+	</a>
+</div>
